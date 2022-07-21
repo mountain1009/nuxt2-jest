@@ -15,8 +15,10 @@
       "~/*": ["./src/*"],
       "~~/*": ["./*"]
     },
-    "types": ["@nuxt/types", "@types/node", "@pinia/nuxt"],
+    "types": ["@nuxt/types", "@types/node", "@pinia/nuxt", "@types/jest"],
+    "typeRoots": ["./node_modules/@types"],
     "jsx": "preserve"
   },
+  "include": ["src/**/*"],
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

@@ -7,7 +7,7 @@ export default {
 
   srcDir: 'src/',
   rootDir: process.cwd(),
-  buildDir: process.cwd() + '/.nuxt/',
+  buildDir: process.cwd() + '/dist/',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
