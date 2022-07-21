@@ -5,4 +5,9 @@ describe('Name of the group', () => {
     const { count } = useCounter()
     expect(count.value).toBe(1)
   })
+  it('should ', () => {
+    const { count, increment } = useCounter()
+    increment()
+    expect(count.value).toBe(2)
+  })
 })
